@@ -1,0 +1,57 @@
+@media (min-width:799px){
+.background-of-each-card {
+    list-style-type: none;
+    height: auto;
+    width: 25%;
+    background-color: gray;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 20px;
+}
+}
+
+.background-of-each-card {
+    list-style-type: none;
+    height: auto;
+    background-color: gray;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 20px;
+}
+
+.image-height {
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+}
+
+.button-styling{
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width:799px){
+    .total-background{
+        width: 250%;
+    }
+    .background-of-each-card {
+        list-style-type: none;
+        height: auto;
+        background-color: gray;
+        border-style: solid;
+        border-color: azure;
+        border-radius: 20px;
+        width: auto;
+        margin-left: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .font-size-of-text{
+        font-size: 30px;
+    }
+    .search-icon2 {
+        height: 30px;
+        width: 60px;
+    }
+}
